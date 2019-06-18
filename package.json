@@ -1,0 +1,56 @@
+{
+  "name": "zombiebox-platform-mag",
+  "description": "Infomir MAG STB support abstraction layer for Zombiebox framework.",
+  "version": "2.0.0",
+  "license": "MIT",
+  "author": "Interfaced (http://interfaced.tv)",
+  "homepage": "https://github.com/interfaced/zombiebox-platform-mag",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:interfaced/zombiebox-platform-mag.git"
+  },
+  "keywords": [
+    "zombiebox",
+    "zombiebox-platform",
+    "smart-tv",
+    "stv",
+    "mag",
+    "infomir"
+  ],
+  "module": "lib/",
+  "files": [
+    "externs/",
+    "lib/",
+    "CHANGELOG.md",
+    "LICENSE",
+    "MIGRATION.md",
+    "README.md",
+    "index.js",
+    "patch-identifiers.js"
+  ],
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "escodegen": "^1.11.1",
+    "esprima": "^4.0.1",
+    "estraverse": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-interfaced": "^1.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-interfaced": "^1.6.1",
+    "eslint-plugin-node": "^9.1.0",
+    "zombiebox": "^2.0.2"
+  },
+  "peerDependencies": {
+    "zombiebox": "^2.0.2"
+  }
+}
